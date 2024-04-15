@@ -16,9 +16,6 @@
 
   programs.zsh.enable = true;
   environment.pathsToLink = ["/share/zsh"];
-  environment.shellInit =''
-
-  ''
   environment.shells = [pkgs.zsh];
 
   environment.enableAllTerminfo = true;
